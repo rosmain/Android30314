@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()){
             case R.id.btn_info:
                 intent = new Intent(MainActivity.this, InfoActivity.class);
+                intent.putExtra("title", "안전하고 깨끗한 의료시설");
                 startActivity(intent);
 
                 break;
